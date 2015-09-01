@@ -1,8 +1,10 @@
 body{
 	> header{
-		padding: 25px 0;
+		padding-top: 30px;
+		padding-bottom: 30px;
 		@include container-fixed();
 		> .content{
+			padding-bottom: 30px;
 			@include make-row();
 			> .logo-container{
 				@include make-md-column(5);
@@ -19,9 +21,13 @@ body{
 		input.form-control{
 			height: 45px;
 			color: #BBBBBB;
-			font: 13px 'Arial';
+			font: 18px 'Arial';
 			margin-top: 7px;
-			border: 1px solid #003040;
+			border: 1px solid #004040;
+		}
+		input.form-control:focus{
+			color:black;
+			border-color:#008C69;
 		}
 	}
 }
