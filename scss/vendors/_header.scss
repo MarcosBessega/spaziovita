@@ -49,6 +49,12 @@ body{
 				.navbar-collapse{
 					border:none;
 					> ul.navbar-nav{
+						ul.dropdown-menu{
+							background:#008C69;
+						}
+						 a.dropdown-toggle{
+							background:#008C69;
+						}
 						> li{
 							a{
 								color:#fff;
