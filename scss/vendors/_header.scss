@@ -1,5 +1,5 @@
 body{
-	font-family: 'Arial';
+}
 	> header{
 		padding: 10px 0;
 		@include container-fixed();
@@ -30,46 +30,46 @@ body{
 			border-radius:none;
 			height: 40px;
 			color: #BBBBBB;
-			font: 18px 'Arial';
+			font: 18px;
 			margin-top: 30px;
-			border: 1px solid #004040;
+			border: 1px solid $dg;
 		}
 		input.form-control:focus{
 			color:black;
-			border-color:#008C69;
+			border-color:$sg;
 		}
 	}
 	> #navegacao{
-		background:#008C69;
+		background:$sg;
 			#navegacao__content{
 			@include make-md-column(12);
 			.navbar{
 				box-shadow:none;
 				border-radius:0;
 				border:none;
-				background:#008C69;
+				background:$sg;
 				margin-bottom: 0;
 				.navbar-collapse{
 					border:none;
 					> ul.navbar-nav{
 						ul.dropdown-menu{
-							background:#008C69;
+							background:$sg;
 						}
 						 a.dropdown-toggle{
-							background:#008C69;
+							background:$sg;
 						}
 						> li{
 							a{
 								color:#fff;
-								font:18px 'Arial';
+								font:18px;
 								&:hover{
-									background:#004040;
+									background:$dg;
 								}
 
 							}
 							 &.active{
 							 	> a{
-									background:#004040;
+									background:$dg;
 							 	}
 							}
 						}
