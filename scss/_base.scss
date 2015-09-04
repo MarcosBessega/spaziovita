@@ -9,29 +9,31 @@ body{
 		}
 	}
 
-.container{
-	h2.heading{
-		margin: 0 0 30px;
-		font: 24px bold 'Arial';
-		position: relative;
-		line-height: 30px;
-		text-indent: 20px;
-		span{
-			display:inline-block;
-			height: 30px;
-			width: 5px;
-			background: $sg;
-			margin-right: 15px;
-			position: absolute;
-			top: 0;
-			left: 0;
-		}
-	}
-}
-
 
 .container{
 	> .content{
 		@include make-row();
+	}
+}
+
+.container{
+	>header.content{
+		h2.heading{
+			margin: 0 0 30px;
+			font: 24px bold 'Arial';
+			position: relative;
+			line-height: 30px;
+			text-indent: 20px;
+			span{
+				display:inline-block;
+				height: 30px;
+				width: 5px;
+				background: $sg;
+				margin-right: 15px;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
 	}
 }

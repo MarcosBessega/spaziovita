@@ -1,2 +1,2 @@
-@media screen and (max-width: 768px){body>header{display:none}}@media screen and (max-width: 475px){body>#navegacao #responsive-logo{display:none}}@media screen and (min-width: 768px){.container>.content{padding-left:60px}#responsive-logo{display:none}}body>#navegacao #responsive-logo{width:40%}
+@media screen and (max-width: 768px){body>header{display:none}}@media screen and (max-width: 475px){body>#navegacao #responsive-logo{display:none}}@media screen and (min-width: 768px){header .container>.content{padding-left:60px}#responsive-logo{display:none}}body>#navegacao #responsive-logo{width:40%}
 /*# sourceMappingURL=responsive.css.map */
