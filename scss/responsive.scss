@@ -3,12 +3,38 @@
 		> header{
 			display:none;
 		}
+		.navbar{
+			padding-left: 15px;
+		}
+		> #tratamentos{
+			p{
+				text-align: center;
+			}
+			.trat_item{
+			padding-bottom:15px;
+			}
+		}
+		.container{
+			>header.content{
+				h2.heading{
+					text-align:center;
+					font:32px bold 'Arial';
+					padding-top: 15px;
+					span{
+						display:none;
+					}
+				}
+			}
+		}
     }
 }
 
 @media screen and (max-width:475px){
 	body{
 		> #navegacao{
+			.navbar{
+			padding-left: 15px;
+		}
 			#responsive-logo{
 				display:none;
 			}
@@ -33,7 +59,8 @@
 body{
 	> #navegacao{
 		#responsive-logo{
-			width:40%;
+			width: 40%;
+			padding-left: 15px;
 		}
 	}
 }

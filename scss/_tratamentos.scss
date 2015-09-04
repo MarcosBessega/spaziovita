@@ -1,0 +1,61 @@
+#tratamentos{
+	img{
+		width: auto;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	.trat_btn{
+		padding:5;
+		color:#FFF;
+		background-color: $sg;
+		font:14px bold 'Arial';
+		border-radius:0;
+		&:hover{
+			background-color: $dg;
+		}
+	}
+	> #tratamentos_row1{
+		padding-bottom: 15px;
+	 	h2{
+		color:$sg;
+		text-align: center;
+		font:21px 'Arial';
+		}
+		> #tratamentos_item_1{
+			@include make-md-column(3);
+			@include make-sm-column(3);
+		}
+		> #tratamentos_item_2{
+			@include make-md-column(4);
+			@include make-sm-column(4);
+
+			@include make-md-column-offset(1);
+			@include make-sm-column-offset(1);
+			padding-left: 40px;
+		}
+		> #tratamentos_item_3{
+			@include make-md-column(3);
+			@include make-sm-column(3);
+
+			@include make-md-column-offset(1);
+			@include make-sm-column-offset(1);
+		}
+	}
+	> #tratamentos_row2{
+		padding-bottom: 30px;
+		h2{
+		color:$sg;
+		text-align: center;
+		font:21px 'Arial';
+		}
+		> #tratamentos_itens_row2{
+			@include make-md-column(3);
+			@include make-sm-column(3);
+
+			@include make-md-column-offset(2);
+			@include make-sm-column-offset(2);
+		}
+
+	}
+}
