@@ -1,6 +1,5 @@
 body{
 		font-family: 'Arial';
-		background-color: rgba(178, 255, 178, 0.05);
 	a{
 		outline: none;
 		img{
@@ -36,3 +35,11 @@ body{
 		}
 	}
 }
+
+    .fb_iframe_widget span{        
+        overflow: initial !important;
+    }
+    .fb_iframe_widget iframe{        
+        width: 300px !important;
+        height: 200px !important;    
+    }
