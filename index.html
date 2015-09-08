@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Clínica Estética Spazio Vita</title>
+  <link rel="shortcut icon" href="images/icone-geral.ico" type="x-icon">
 	<link rel="stylesheet" href="css/vendors/plugins.css">
   <link rel="stylesheet" href="css/vendors/owl-carousel/owl.carousel.css">
   <link rel="stylesheet" href="css/vendors/owl-carousel/owl.theme.css">
@@ -21,9 +22,15 @@
 				</div>
 			</div>
 			<div class="search-container">
-			<form action="">
-				<input class="form-control" type="text" placeholder="Pesquisar no site...">
-			</form>
+			 <form action="http://search.freefind.com/find.html" method="get" accept-charset="utf-8" target="_self">
+				<!-- <input class="form-control  search-container__input" type="text" placeholder="Pesquisar no site...">  -->
+        <input type="hidden" name="si" value="53721883">
+        <input type="hidden" name="pid" value="r">
+        <input type="hidden" name="n" value="0">
+        <input type="hidden" name="_charset_" value="">
+        <input type="hidden" name="bcd" value="&#247;">
+        <input class="form-control" type="text" name="query" placeholder="Pesquisar no site..."> 
+        </form>
 			</div>
 		</div>
 	</header>
@@ -56,7 +63,7 @@
                     <li><a href="#">Endermoterapia</a></li>
                   </ul>
                 </li>
-                <li><a href=".contato">Contatos</a></li>
+                <li><a href="#contatos">Contatos</a></li>
               </ul>
             </div><!-- /.navbar-collapse -->
           </nav>
@@ -71,7 +78,7 @@
     <div class="item"><img src="images/agende-tratamento-slider.png" alt="Tratamentos faciais e corporais - Spazio Vita"></div>
   </div>
 
-<div class="container" id="tratamentos">
+<section class="container" id="tratamentos">
   <header class="content">
      <h2 class="heading">
       <span></span>
@@ -122,16 +129,41 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="container" id="contatos">
+<section class="container" id="contatos">
   <header class="content">
     <h2 class="heading">
       <span></span>
       Contatos
     </h2>
   </header>
-</div>
+  <div id="contatos__itens" class="content">
+    <div id="localizacao">
+      <h3>Localização
+      </h3>
+      <span></span>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1748.4054180675807!2d-51.5980511238037!3d-28.784901507783598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951dc5fdf8e00bf1%3A0x56d5a815f82b49ad!2sR.+Delfino+Moraes%2C+165+-+Santa+Cruz%2C+Nova+Prata+-+RS%2C+95320-000!5e0!3m2!1spt-BR!2sbr!4v1441743383517" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div id="endereco">
+      <h3>Endereço
+      </h3>
+      <span></span>
+      <div class="content">
+        <div class="endereco__content">
+          <p>Rua Arthur Rigo, 165 Bairro Santa Cruz II - Nova Prata - RS</p>
+          <p>(54) 9907 9776</p>
+          <p>spaziovitanp@gmail.com</p>
+      </div>
+    </div>
+  </div>
+    <div id="facebook">
+      <h3>Curta nossa Página
+      </h3>
+      <span></span>
+    </div>
+  </div>
+</section>
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>

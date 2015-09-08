@@ -4,6 +4,7 @@
 		display: block;
     	margin-left: auto;
     	margin-right: auto;
+    	border: 1px solid $dg;
 	}
 	.trat_btn{
 		padding:5;
@@ -23,23 +24,23 @@
 		font:21px 'Arial';
 		}
 		> #tratamentos_item_1{
-			@include make-md-column(3);
 			@include make-sm-column(3);
+			@include make-md-column(3);
 		}
 		> #tratamentos_item_2{
-			@include make-md-column(4);
 			@include make-sm-column(4);
+			@include make-md-column(4);
 
-			@include make-md-column-offset(1);
 			@include make-sm-column-offset(1);
+			@include make-md-column-offset(1);
 			padding-left: 40px;
 		}
 		> #tratamentos_item_3{
-			@include make-md-column(3);
 			@include make-sm-column(3);
+			@include make-md-column(3);
 
-			@include make-md-column-offset(1);
 			@include make-sm-column-offset(1);
+			@include make-md-column-offset(1);
 		}
 	}
 	> #tratamentos_row2{

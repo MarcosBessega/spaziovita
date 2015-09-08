@@ -26,7 +26,7 @@
 				}
 			}
 		}
-    }
+	}
 }
 
 @media screen and (max-width:475px){
@@ -63,4 +63,17 @@ body{
 			padding-left: 15px;
 		}
 	}
+}
+
+@media screen and (max-width:992px){
+	body{
+		> #contatos{
+			> #contatos__itens{
+				h3{
+					text-align: center;
+				}
+			}
+    	}
+	}
+
 }
