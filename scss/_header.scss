@@ -1,8 +1,6 @@
 body{
-	font-family: 'Arial';
 	> header{
 		padding: 10px 0;
-		@include container-fixed();
 		> .content{
 			padding-bottom: 15px;
 			> .logo-container{

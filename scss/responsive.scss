@@ -26,6 +26,15 @@
 				}
 			}
 		}
+		> #slider{
+			.item img{
+				width: 100%;
+				margin:0;
+			}
+		}
+		.fb-page{ 
+			margin-left: 15%;
+		}
 	}
 }
 
@@ -38,6 +47,9 @@
 			#responsive-logo{
 				display:none;
 			}
+		}
+		.fb-page{ 
+			margin-left: 8%;
 		}
     }
 }
@@ -73,6 +85,9 @@ body{
 					text-align: center;
 				}
 			}
+    	}
+    	footer{
+    		margin-top: 200px;
     	}
 	}
 
