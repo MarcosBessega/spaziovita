@@ -35,6 +35,12 @@
 		.fb-page{ 
 			margin-left: 15%;
 		}
+		.tratamentos-video{
+			margin-bottom: 0;
+			iframe{
+				height: 200px;
+			}
+		}
 	}
 }
 
@@ -88,6 +94,11 @@ body{
     	}
     	footer{
     		margin-top: 200px;
+    	}
+    	.tratamentos-video{
+    		iframe{
+    		height: 200px;
+    		}
     	}
 	}
 
