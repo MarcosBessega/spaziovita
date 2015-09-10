@@ -7,6 +7,9 @@
 			padding-left: 15px;
 		}
 		> #tratamentos{
+			#tratamentos_item_2{
+    		padding-left: 0 !important;
+    		}
 			p{
 				text-align: center;
 			}
@@ -38,7 +41,7 @@
 		.tratamentos-video{
 			margin-bottom: 0;
 			iframe{
-				height: 200px;
+				height: 200px !important;
 			}
 		}
 	}
@@ -92,12 +95,16 @@ body{
 				}
 			}
     	}
+    	#tratamentos_item_1,
+    	#tratamentos_item_2{
+    		padding-bottom: 15px;
+    	}
     	footer{
     		margin-top: 200px;
     	}
     	.tratamentos-video{
     		iframe{
-    		height: 200px;
+    		height: 280px !important;
     		}
     	}
 	}
